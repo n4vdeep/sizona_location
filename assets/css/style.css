@@ -776,6 +776,12 @@ section {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .cta {
+    width: 100%;
+    height: auto;
+  }
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1318,6 +1324,12 @@ section {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .resp-iframe {
+    width: 100%;
   }
 }
 
