@@ -508,9 +508,10 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 37vh;
-    background-position: top;
-    background-size: contain;
+    height: 100vh;
+    background-position: left;
+    /* background-size: contain; */
+    background-attachment: scroll;
   }
   #hero h1 {
     font-size: 22px;
