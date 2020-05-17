@@ -1101,7 +1101,7 @@ section {
 @media (max-width: 768px) {
   .testimonials {
     background-position: left center;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: scroll;
   }
 }
