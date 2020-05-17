@@ -781,6 +781,9 @@ section {
   .cta {
     width: 100%;
     height: auto;
+    background-position: left center;
+    /* background-size: contain; */
+    background-attachment: scroll;
   }
 }
 /*--------------------------------------------------------------
@@ -1092,6 +1095,14 @@ section {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    background-position: left center;
+    background-size: cover;
+    background-attachment: scroll;
   }
 }
 
