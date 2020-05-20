@@ -789,18 +789,18 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.space .space-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.space #space-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.space #space-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -814,17 +814,17 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.space #space-flters li:hover,
+.space #space-flters li.filter-active {
   color: #151515;
   background: var(--main-accent-color);
 }
 
-.portfolio #portfolio-flters li:last-child {
+.space #space-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.space .space-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -832,7 +832,7 @@ section {
   background: rgba(21, 21, 21, 0.6);
 }
 
-.portfolio .portfolio-wrap::before {
+.space .space-wrap::before {
   content: "";
   background: rgba(21, 21, 21, 0.6);
   position: absolute;
@@ -845,11 +845,11 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap img {
+.space .space-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-info {
+.space .space-wrap .space-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -865,13 +865,13 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.space .space-wrap .space-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
+.space .space-wrap .space-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -880,12 +880,12 @@ section {
   font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.space .space-wrap .space-links {
   text-align: center;
   z-index: 4;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.space .space-wrap .space-links a {
   color: #fff;
   margin: 0 5px 0 0;
   font-size: 28px;
@@ -893,19 +893,19 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.space .space-wrap .space-links a:hover {
   color: var(--main-accent-color);
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.space .space-wrap:hover::before {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover img {
+.space .space-wrap:hover img {
   transform: scale(1.2);
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.space .space-wrap:hover .space-info {
   opacity: 1;
 }
 
@@ -970,7 +970,7 @@ section {
 }
 
 .counts .image {
-  background: url("../img/sizona_images/sizona_prem/SL_counts-img.jpg") center
+  background: url("../img/sizona_images/sizona_prem/SL_counts_img.jpg") center
     center no-repeat;
   background-size: cover;
   min-height: 400px;
@@ -1397,26 +1397,26 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.space-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-container {
+.space-details .space-details-container {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-carousel {
+.space-details .space-details-carousel {
   position: relative;
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
+.space-details .space-details-carousel .owl-nav,
+.space-details .space-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot {
+.space-details .space-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 10px 0 0;
   width: 12px;
@@ -1425,11 +1425,11 @@ section {
   background-color: #ddd !important;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-dot.active {
+.space-details .space-details-carousel .owl-dot.active {
   background-color: var(--main-accent-color) !important;
 }
 
-.portfolio-details .portfolio-info {
+.space-details .space-info {
   padding: 30px;
   position: absolute;
   right: 0;
@@ -1439,7 +1439,7 @@ section {
   z-index: 2;
 }
 
-.portfolio-details .portfolio-info h3 {
+.space-details .space-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1447,36 +1447,36 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.space-details .space-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.space-details .space-info ul li + li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.space-details .space-description {
   padding-top: 50px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.space-details .space-description h2 {
   width: 50%;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.space-details .space-description p {
   padding: 0 0 0 0;
 }
 
 @media (max-width: 992px) {
-  .portfolio-details .portfolio-description h2 {
+  .space-details .space-description h2 {
     width: 100%;
   }
-  .portfolio-details .portfolio-info {
+  .space-details .space-info {
     position: static;
     margin-top: 30px;
   }
