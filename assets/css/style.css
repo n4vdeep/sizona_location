@@ -816,7 +816,7 @@ section {
 
 .space #space-flters li:hover,
 .space #space-flters li.filter-active {
-  color: #151515;
+  color: #fff;
   background: var(--main-accent-color);
 }
 
@@ -1044,7 +1044,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--main-accent-color);
   font-size: 26px;
 }
 
@@ -1395,7 +1395,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Space Details
 --------------------------------------------------------------*/
 .space-details {
   padding-top: 40px;
@@ -1524,23 +1524,23 @@ section {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 26px;
   display: inline-block;
-  background: #292929;
+  background: var(--main-accent-color);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 4px;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   transition: 0.3s;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: var(--main-accent-color);
-  color: #151515;
+  background: #fff;
+  color: var(--main-accent-color);
   text-decoration: none;
 }
 
