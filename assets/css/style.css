@@ -742,7 +742,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../img/bg/SL_cta-bg.webp") fixed center center;
+    url("../img/bg/SL_cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 160px 0;
 }
