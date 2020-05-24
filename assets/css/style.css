@@ -283,14 +283,15 @@ h6 {
   padding: 7px 25px 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 42px;
   display: inline-block;
   border: 2px solid var(--main-accent-color);
 }
 
 .get-started-btn:hover {
-  background: var(--main-accent-color);
-  color: #fff;
+  background: var(--secondary-accent-color);
+  color: var(--main-accent-color);
+  border: 2px solid var(--secondary-accent-color);
 }
 
 @media (max-width: 768px) {
