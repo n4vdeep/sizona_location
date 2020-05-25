@@ -1636,3 +1636,47 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+.cookie-container {
+  position: fixed;
+  width: 100%;
+  bottom: -100%;
+  left: 0;
+  background-color: #2f3640;
+  color: rgba(255, 255, 255, 0.571);
+  padding: 0 140px;
+  text-align: center;
+  box-shadow: 0px -2px 5px 0px rgba(85, 85, 85, 0.276);
+
+  transition: 400ms;
+  z-index: 100000;
+  
+}
+
+.cookie-container h3 {
+  margin: 15px 0;
+}
+
+.cookie-container.active {
+  bottom: 0;
+}
+
+.cookie-container a {
+  color: #fff;
+}
+
+.cookie-btn {
+  background: #cd401d;
+  border: 0;
+  color: #fff;
+  padding: 12px 22px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cookie-btn:hover {
+  background: #f73403;
+}
