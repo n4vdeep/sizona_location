@@ -1647,6 +1647,83 @@ section {
 
 
 /*--------------------------------------------------------------
+# Privacy
+--------------------------------------------------------------*/
+.p-container {
+  background-color: var(--secondary-accent-color);
+}
+
+.privacy-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 14px 4px rgba(102,102,102,0.72);
+  border-radius: 3px;
+  color: #000;
+  text-align: justify;
+  margin: 4rem;
+  padding: 4rem 10rem;
+}
+
+.privacy-container h1 {
+  text-align: center;
+}
+
+.privacy-container h1,
+.privacy-container h4 {
+  margin-bottom: 1.8rem;
+}
+
+.privacy-container p {
+  margin-bottom: 1.5rem;
+}
+
+.privacy-container li{
+  list-style: none;
+}
+
+
+/* iPhone SE */
+
+@media screen and (max-width: 375px) {
+  .privacy-container {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+
+  .privacy-container h1 {
+    font-size: 28px;
+  }
+}
+
+/* iPhone 6, 7, & 8 */
+
+@media only screen 
+and (min-device-width : 376px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+  .privacy-container {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+
+  .privacy-container h1 {
+    font-size: 28px;
+  }
+}
+
+/* iPad */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+  .privacy-container {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*--------------------------------------------------------------
 # Cookies
 --------------------------------------------------------------*/
 
